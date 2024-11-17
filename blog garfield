@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garfield - Página do Filme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("fundo.jpg") no-repeat center center fixed;
+            background-size: cover; 
+        }
+        header, footer {
+            background-color: #5f0705;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        header img {
+            float: left;
+            margin-left: 10px;
+            height: 50px;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        .poster {
+            text-align: center;
+        }
+        .poster img {
+            width: 300px;
+            margin: 10px 0;
+        }
+        .galeria {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .galeria img {
+            width: 150px;
+            height: auto;
+        }
+        footer {
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <img src="logo.png" alt="Logo do Filme" style="height: 100px;">
+       <h1>Garfield - O Filme</h1>
+        <nav>
+            <a href="#sinopse">Sinopse</a>
+            <a href="#artigo">Artigo</a>
+            <a href="#galeria">Galeria</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section id="sinopse">
+            <center><h2>Sinopse</h2>
+            <p>Garfield: Fora de Casa (2024) traz o icônico gato laranja, dublado por Chris Pratt, em uma aventura inesperada ao lado de seu pai distante, Vic (Samuel L. Jackson). Após anos separados, Garfield e Odie se juntam a Vic em um plano ousado, misturando comédia e ação. O filme explora temas como família, superação e as travessuras clássicas de Garfield em um cenário fora de sua zona de conforto​</p></center>
+        </section>
+
+        <section id="poster" class="poster">
+            <h2>Pôster do Filme</h2>
+            <img src="poster.jpg" alt="Pôster do filme Garfield">
+            <p>Garfield curtindo sua vida preguiçosa no sofá.</p>
+        </section>
+
+        <section id="artigo">
+           <center><h2>Mais Sobre o Filme</h2>
+            <article>
+                <h3>Aventura e Comédia</h3>
+                <img src="garfield_artigo.jpg" alt="Cena do filme Garfield" style="width:100%; max-width:600px;">
+                <p>O filme combina momentos de humor e ternura, mostrando como Garfield aprende a valorizar a amizade e o trabalho em equipe. Uma história cheia de reviravoltas e gargalhadas.</p></center>
+            </article>
+        </section>
+
+        <section id="galeria">
+            <center><h2>Galeria</h2></center>
+            <div class="galeria">
+                <img src="garfield1.jpg" alt="Garfield 1">
+                <img src="garfield2.jpg" alt="Garfield 2">
+                <img src="garfield3.jpg" alt="Garfield 3">
+                <img src="garfield4.jpg" alt="Garfield 4">
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 joaozin. Todos os direitos reservados para mim.</p>
+    </footer>
+</body>
+</html>
